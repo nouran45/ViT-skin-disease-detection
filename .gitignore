@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+
+# Ignore temporary files
+__pycache__/
+*.pyc
+
+# Ignore large datasets
+datasets/raw_images/
+datasets/processed_images/
+
+# Ignore other unnecessary files
+.DS_Store
