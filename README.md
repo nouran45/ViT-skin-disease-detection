@@ -150,3 +150,9 @@ This model is **production-ready** and can be deployed in real-world healthcare 
 
 ---
 
+## 👥 Authors
+
+This project was developed as part of an academic research initiative by:
+
+- **Nouran Salama**  
+- **Nour Atef** 
