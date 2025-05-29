@@ -1,10 +1,10 @@
-# 🧠 Vision Transformer (ViT) for Skin Disease Classification
+#  Vision Transformer (ViT) for Skin Disease Classification
 
 This repository contains a fine-tuned **Vision Transformer (ViT)** model for **multi-class skin disease classification**, designed to be part of a scalable, AI-powered medical assistance platform.
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 Skin diseases affect millions worldwide, and early diagnosis is often limited by the availability of dermatologists. Our model uses deep learning, specifically ViT, to classify dermoscopic and clinical images across **15 different skin conditions**, achieving **97.4% accuracy**.
 
@@ -13,7 +13,7 @@ Skin diseases affect millions worldwide, and early diagnosis is often limited by
 
 ---
 
-## 🏥 Supported Disease Classes (15)
+##  Supported Disease Classes (15)
 
 | No. | Class Name                    | Description                                                   |
 |-----|-------------------------------|---------------------------------------------------------------|
@@ -36,7 +36,7 @@ Skin diseases affect millions worldwide, and early diagnosis is often limited by
 
 ---
 
-## 📂 Dataset Sources
+##  Dataset Sources
 
 - [HAM10000](https://doi.org/10.1038/sdata.2018.161)
 - [ISIC 2019 Challenge](https://challenge2019.isic-archive.com/)
@@ -46,7 +46,7 @@ Skin diseases affect millions worldwide, and early diagnosis is often limited by
 
 ---
 
-## ⚙️ Preprocessing Pipeline
+##  Preprocessing Pipeline
 
 ### 🔹 1. Image Resizing
 - All images were resized to **224×224 pixels**.
@@ -81,7 +81,7 @@ Used during training to improve generalization:
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 | Feature         | Description                           |
 |----------------|---------------------------------------|
@@ -93,7 +93,7 @@ Used during training to improve generalization:
 
 ---
 
-## 💾 Save the Model (Sample Code)
+##  Save the Model 
 
 ```python
 import torch
@@ -128,7 +128,7 @@ Results show strong generalization across both clinical and dermoscopic images.
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 This model is **production-ready** and can be deployed in real-world healthcare settings:
 
@@ -143,7 +143,7 @@ This model is **production-ready** and can be deployed in real-world healthcare 
 
 ---
 
-## 📬 Contact
+##  Contact
 - **Kaggle DataSet**: [ViT Classification Model](https://www.kaggle.com/datasets/nour12347653/skin-disease-detection-dataset-ham10000-isic)
 
 - **Kaggle Model**: [ViT Classification Model](https://www.kaggle.com/models/nourshehata183/skin-disease-classification-model-vit)
