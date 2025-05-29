@@ -133,11 +133,7 @@ Results show strong generalization across both clinical and dermoscopic images.
 This model is **production-ready** and can be deployed in real-world healthcare settings:
 
 - ✅ **Web and Mobile Health Platforms**
-- ✅ **API Integration** with Flask, FastAPI, or Gradio
-- ✅ **Confidence-Based Triage System**
-  - High-confidence **malignant predictions** trigger **urgent alerts**
-  - **Benign outcomes** return self-care suggestions
-  - **Low-confidence predictions** indicate poor-quality or ambiguous inputs
+- ✅ **API Integration** with Flask, FastAPI
 
 ---
 
@@ -149,4 +145,9 @@ This model is **production-ready** and can be deployed in real-world healthcare 
 - **Kaggle Model**: [ViT Classification Model](https://www.kaggle.com/models/nourshehata183/skin-disease-classification-model-vit)
 
 ---
+## 👥 Authors
 
+This project was developed as part of an academic research initiative by:
+
+- **Nouran Salama** 
+- **Nour Atef**
